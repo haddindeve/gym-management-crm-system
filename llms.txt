@@ -1,0 +1,42 @@
+# Gym Management CRM with NFC Gate Control
+
+> Gym CRM joining member management, billing and NFC turnstile hardware, built to keep working offline.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/gym-management-crm-system
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+A gym needs the front desk, the membership database and the entry gate to agree with each other. Cloud-only systems fail exactly when that matters - when the internet drops and members are still queuing at the turnstile.
+
+A PHP/MySQL system with an offline-first browser layer: a service worker and IndexedDB keep the desk usable during an outage, and a sync engine reconciles once connectivity returns. Entry is handled by ESP32 controllers reading NFC cards and checking membership state directly, so the gate keeps working independently of the desk.
+
+## Stack
+Backend: PHP 8, MySQL, Frontend: Vanilla JavaScript PWA, Offline: Service worker, IndexedDB, Hardware: ESP32, NFC readers, Reporting: PDF and Excel export
+
+## Capabilities
+- Gender-aware member management
+- NFC turnstile entry and exit control
+- Offline-first desk operation with background sync
+- Payments, expenses and staff modules
+- Excel import and PDF reporting
+- Licence gating for multi-site deployment
+
+## Outcomes
+- Front desk stays operational through internet outages
+- Gate decisions made at the hardware, not dependent on a round trip
+- Members, payments and attendance in one system instead of separate books
+
+## FAQ
+Q: Why offline-first for a gym?
+A: Peak hours and internet outages overlap. The desk and the gate have to keep working when the connection does not.
+
+Q: How does the NFC gate work?
+A: ESP32 controllers read the member card and check membership state to open the turnstile, so entry does not wait on the web app.
+
+Q: What happens to data recorded offline?
+A: It is queued locally in IndexedDB and reconciled by the sync engine once connectivity returns.
+
+Q: Is the source available?
+A: Private repository; access on request.
