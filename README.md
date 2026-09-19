@@ -111,7 +111,7 @@ Private repository; access on request.
 
 This repository is the public case study for **Gym Management CRM with NFC Gate Control**. The full implementation - application code, database schema, tests and deployment configuration - lives in a **private repository** on this account, alongside the rest of the work shown here.
 
-Source access can be arranged for hiring conversations, technical review or client due diligence. The quickest route is a short message on [LinkedIn](https://www.linkedin.com/in/muhammad-tanveer-advenno/) or an email to [mtanveertahir66@gmail.com](mailto:mtanveertahir66@gmail.com).
+Source access can be arranged for hiring conversations, technical review or client due diligence. The quickest route is a short message on [LinkedIn](https://www.linkedin.com/in/muhammad-tanveer-advenno/) or an email to [mtanveertahir6666@gmail.com](mailto:mtanveertahir6666@gmail.com).
 
 ## About the engineer
 
@@ -121,7 +121,7 @@ Full-stack AI automation engineer. I build agentic systems, browser and workflow
 
 - GitHub: [haddindeve](https://github.com/haddindeve)
 - LinkedIn: [Muhammad Tanveer](https://www.linkedin.com/in/muhammad-tanveer-advenno/)
-- Email: [mtanveertahir66@gmail.com](mailto:mtanveertahir66@gmail.com)
+- Email: [mtanveertahir6666@gmail.com](mailto:mtanveertahir6666@gmail.com)
 - Location: Pakistan
 
 ## Related projects
